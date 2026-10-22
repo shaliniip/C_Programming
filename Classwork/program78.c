@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+
+//input 10
+
+// 1 3  5  7  9
+void display(int ino)
+{
+    int icnt=0;
+    for(icnt=1; icnt<=ino;icnt+=2)
+    {
+
+        printf("%d \t",icnt);
+        
+    }
+    printf("\n");
+}
+int main()
+{
+    int ivalue=0;
+
+    printf("enter the frequency: \n");
+    scanf("%d",&ivalue);
+
+    display(ivalue);
+    return 0;
+}
